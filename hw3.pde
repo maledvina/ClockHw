@@ -42,7 +42,7 @@ void setup() {
   textAlign(CENTER, CENTER);
   
    file = new SoundFile(this, "clock.mp3");
-  //file.play();
+  file.play();
 }
     
 void draw() {
